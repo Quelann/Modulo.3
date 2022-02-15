@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <!--Link pare pegar css/java scrip pre-moldado ja dos servidores do bootStrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estilo.css">
+<!--Aula de BootStrap entendendo conceitos e como funciona desafio de fazer um page sem usar uma linha de css e java script
+*incomporar link do bootStrao quando for fazer pelo vscode
+-->
+
+</head>
+<body>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">test1 <span class="sr-only">(current)</span></a>
+            </li>
+            <!--
+            <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+            </li>
+            -->
+            <!--
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Redes Socias
+            </a>
+            
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.instagram.com/wsgordo/">Instagram</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://github.com/Quelann">GitHub</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/barreto-wesley/"
+                >LinkedIn</a>
+              </div>
+            </li>
+            -->
+           <!-- <li class="nav-item">
+              <a class="nav-link disabled">Desabilitaria o lik</a>
+            </li>
+            -->
+            <li class="nav-item active">
+                <a class="nav-link" href="#">test2 <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">test3 <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">test4 <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">test5 <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+<!--/Menu-->
+
+<!--Grid-->
+
+
+<!--/Grid-->
+
+
+
+<!--Scripts necessario para ultilização dos codigos JS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script   script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/3.0.1/dust-core.min.js" integrity="sha512-tMlMz8zBQVTbYgPp2+zZ7Zu7+EzSkfieK5HegllCfbxAqiOfmvMI1ZruGgXz7RhXtaDYftYQuXGgAe4efYez+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    -->
+
+    <footer>
+        <div class="container">
+            <a href="http://www.github.com/Quelann" target="_blank">
+                <img class="tm-social p-30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmJJREFUWEfdloFNHEEMRT8VABUAFQAVJFRAqCBQQZIKklQQqIBQQegAqCDQAXSQEtCTZk8zPnvWe3soJyydVrr12t9/vj3e0obZ1obh0bsBdCTpsySeO+UJ2Y+S/pXnraSHqScwlaEfkr4UEJlcgLuUdFWAjn6TBfRJ0i9J+6MRfYdnSd8kwVrXMoBg5ftYoOR72AJYaGOAfhetJPOl3Ih5EXn2AH0tx5TKMtEJTRF/ySJAaOaP8T4rYj6X9CEJgC6DETR058Rb0lQEiAB7VYCnqrX5+2OpkDa/N4l4xzgASJ0Qv7oQchzb7vMAwcC1SUKlJJpjFhCxfkqiaRbmAbLs4AwTVDPHPEDMqd0eIKj+62RdB0Mc36kT+6Q+dstQ1FkHRZhzGGKowvS2CdJ0nAXk0boOdgYMHktN/AygJeHNoMmb+o0+LSBP0G8NiPoWODKAwqm6AlPRvRgC+h8aeqm3CMtQ1JrMCmbGXCOG7bKuqKO2X4eOouNqYluGosEIM6wM3E+rWC9udzCSrO40LtXDCsGwjuKTMfZtVt7mvqo+bPTTtFvlVF+usIKuYKYe+4ifn7crA4Kj52Yfu5DZHilyYdH6wbAamOEjAAGgZqs3wTObJuxwlE2zRICorF6ouMswqoEpjpJjiJZ2b8GzR9xoZ3jZW2Hro+vuwY6YbEHWJezaKUs+oAiUEXQP0I0kinVtDBAfeRsk/7uUlywRoNF5lgFEDhKgn1rUUwAhYAqz+/cSS1lAw4cEpaUB1gM0DEKAIP70QJ0KaADG9jempYzPbIYy03mWz6oMzUra+3jjAL0C4r6DJZifSEYAAAAASUVORK5CYII=" alt="GitHub Logo">
+            </a>
+    
+            <a href="https://www.instagram.com/wsgordo/" target="_blank">
+                <img class="tm-social p-30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAk9JREFUWEftl7uuTkEUgL/zBKhFEFFQ4EjUeAOXKETDE6A4iYi4REREgScgoSJuT4BaTpwGFaEQLU9AvmSN/H579szYe5+c4qzkzy7+mVnfrNustcAak4U1xsM6UMkjLRbaB2wF/LbICvAV8FuUGqBzwBVgY/G0/gU/gKvAvb5lfUACPAcODQSZ3/4aOAoI+I/0Abnx4Mgw6TjPPtwCpJvuTASTjj0DPJjXkbPQlwjgMZhUrHu85KzF1bG9BsgsejcGCfASOBJn+TUmZ2VxPvu6LGQQv6oA+hkmfwEYE9uiJLj/NLAhlKlU6QoD48i9f6QLyNQ0zfvEm6u0M1MCTtC9gK7x15Wt16IUDAKadcMO4ACwG/gFfADeAp9Dg8VQqJwMBtJNukbL7InbWVNm5WlY+H24sC8eBwNZZY0Fs+M2cDxz9SfAUjwZd4GzmXWDgVIQngAeF+JM2GcRa/enAtoU7roMeLs+uQTcKLhtsIUSkMquF4AuAjenBkouOwYYvH1iIUzlYTKXpaDeAtwCTmaIHgEXgG/ApEFtupthfndGep+ag3oY8fVpNdJe3Ra79BxsBvYDu6IwfgSWge+rVRiTMYSyIPokdIkPtHFTanersqz2cdVt9jM+jvbMis+EEBbPGql6XMdsP0pQVe2Hh4zZoOWgtKrv4l+S6xi7mqnSbVv/Px8loQrIRVM2+W9y00xpDLLJGnvyEEYPNI9ByZRutto6tQ4RY8Zz/GWlZnJNm80+h8fWwdGaZZKMNkoPsUrz3hYLNR/+PxvWgUpW+w0REoYlHAlgDgAAAABJRU5ErkJggg==" alt="Instagram Logo">
+            </a>
+
+            <a href="https://www.linkedin.com/in/wesley-barreto-9b90a2227/" target="_blank"> <!--target="_blank" para o link abrir em uma nova pagina-->
+                <img class="tm-social p-30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAXlJREFUWEftl79KxEAQh78rLKzUJzg7O1GwsfJ8A21F0E6s1DfQFzi1EytF7PUJFEFLUfwDWvkEoj6B/GQjIZlkc7AhB9mBENidnfnutzO7uQ5DZp0h4yEC+XakSKFpYAuYAl6APvDmCxZi3gKaBW6B0VSCT2AeeA+RtCyGBXQGrBqLjoDNJoDuAamUtRtgoQmgc2DFSHwMbDQBNAfcASOp5D+uhl6bAFJOQW27Lnt2XfZUN4zit/JgnAS+3OMV2VJoBtg3Vu4AD27c57PkDtZeJs4FcArobZoFpCBXhvcicO3Gy3zWgTWPFIeuRnNuoYH0y6VOFVu2lAoNVAUk8dH25w7gOoEegXGgW0I5kS32OoAuAdWROkumetNWjnnq8m86NNA3kLR5Ov+B67oskzpXc/8WGkjqWEVd1JV7wG6dQLkEnmMiAiW7EbcsUSLWkO9yjQpFhdQtuot0OWbtBPhwg0U+UjBRMb2+sn8rP/IH+Whr59+ggRT6Beu3hCUjRh5gAAAAAElFTkSuQmCC" alt="Lnkedin Icone">
+            </a>
+        </div>
+            
+    </footer>
+</body>
+</html>

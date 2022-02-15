@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-30{          /*Informando o comando e quantos pixels ele vai ser usado*/
+    padding: 30px;
+}
+
+.tm_social{
+    width: 50px;
+    height: 50px;
+}
